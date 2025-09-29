@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    ... <!-- Скопируйте весь блок <head> из index.html -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нас - Название вашего сайта</title>
     <meta name="description" content="Узнайте больше о нашей компании и истории">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        ... <!-- Скопируйте весь блок <header> из index.html -->
+        <a href="index.html">Логотип или название сайта</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html" aria-current="page">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <!-- Простые "хлебные крошки" -->
+        <!-- Хлебные крошки -->
         <nav aria-label="Хлебные крошки">
-            <a href="index.html">Главная</a> →
-            <span>О нас</span>
+            <a href="index.html">Главная</a> → <span>О нас</span>
         </nav>
 
         <h1>О нашей компании</h1>
@@ -29,7 +38,8 @@
     </main>
 
     <footer>
-        ... <!-- Скопируйте весь блок <footer> из index.html -->
+        <p>&copy; 2025 Sупер Sайт. Все права защищены.</p>
+        <p>Телефон: +7 (906) 043-23-54</p>
     </footer>
 </body>
 </html>
